@@ -49,11 +49,11 @@ a{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
    }
 
 
-.left-side{
+.section-1-body .left-side{
     display: flex;
     flex-direction: column; 
     flex-wrap: wrap;
@@ -72,8 +72,8 @@ a{
     color: #E5E7EB;
 }
 
-.left-side button{
-    background-color: #1999e4;
+button{
+    background-color: #3882F6;
     border: none;
     color: #E5E7EB;
     align-self: flex-start;
@@ -84,7 +84,7 @@ a{
     height: 30px;
 }
 
-.right-side{
+.section-1-body .right-side{
     display: flex;
 }
 
@@ -150,25 +150,73 @@ a{
 
 .section-3{
     display: flex;
-    height: 35vh;
+    height: 45vh;
     justify-content: center;
     background-color:rgb(173, 173, 173) ;
-}
-
-@font-face {
-    font-family: Mr-Robot;
-    src: url('fonts/Mr-Robot.ttf') format('truetype');
 }
 
 .quote{
     display: flex;
     flex-direction: column;
     align-self: center;
+    padding-block: 5vh;
     width: 40%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
+    font-weight: bold;
 }
 
 #author{
     align-self: flex-end;
+}
+
+
+
+.section-4{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.section-4-body{
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding-inline: 25px;
+    margin-block: 5vh;
+}
+
+.section-4-body .left-side{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.section-4-body .right-side{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.section-4-body p,
+.section-4-body h2{
+    margin: 0
+}
+
+#section-4-button{
+    border: 3px solid
+}
+
+
+footer{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0px;
+    align-self: stretch;
+    background: #1F2937;
+    color: #f9faf8;
 }
